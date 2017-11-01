@@ -1,9 +1,10 @@
 TODO:
 
+* Move config in root dir so that the directory structure doesn't change a lot compared to the previous one; see next point why this currently fails
+* Fix `ignoreFiles`
 * Fix examples and homepage templates
 * Fix homepage highlight shortcode
 * Migrate the old Jekyll plugins to Hugo shortcodes:
-  1. `bugify.rb`
-  2. `example.rb` - Needs further tweaking
+  * `bugify.rb`
+  * `example.rb` - Add ID and options support; switch to named args
 * Change all URLs to use `absURL` / `relURL`
-* Fix `ignoreFiles`
