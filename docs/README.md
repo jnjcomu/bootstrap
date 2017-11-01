@@ -8,3 +8,5 @@ TODO:
   * `bugify.rb`
   * `example.rb` - Add ID and options support; switch to named args
 * Change all URLs to use `absURL` / `relURL`
+* See why we end up with bogus `</p>` after some shortcodes
+* Make sure highlighting works properly for scss snippets
